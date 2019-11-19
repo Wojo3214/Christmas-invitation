@@ -1,3 +1,7 @@
+html{
+    background-color: #fff;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -36,12 +40,17 @@ main{
     z-index:99;
 }
 
+.tenor-gif-embed > div > iframe > html > body {
+    background-color: #fff;
+}
+
 h1{
     color: #D4AF37;
     font-size: 50px;
     font-family: 'Nanum Myeongjo', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 25px;
 }
 
 select{
@@ -89,10 +98,6 @@ p{
 
 @media only screen and (max-width: 756px){
 
-    .tenor-gif-embed{
-        border: 0;
-    }
-
     main{
         flex-direction: column;
     }
@@ -100,6 +105,8 @@ p{
     .second{
         width: 100%;
         box-shadow: none;
+        background: #fff;
+        color: #272727;
     }
 
     .half:nth-child(2){
